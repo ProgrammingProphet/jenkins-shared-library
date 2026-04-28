@@ -1,0 +1,16 @@
+@Library("Shared") _
+
+pipeline {
+    agent {label "aws-jenkins"}
+    
+    stages {
+        stage('Hello') {
+            steps{
+                script{
+                   
+                    messagePass( "Aditya", 20)
+                }
+            }
+        }
+   }
+}
