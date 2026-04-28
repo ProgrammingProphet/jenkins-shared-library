@@ -1,3 +1,3 @@
-def hello(){
-  echp "Hello from GitHub - Shared Library"
+def call(){
+  echo "Hello from GitHub - Shared Library"
 }
